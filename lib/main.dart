@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'homePage.dart';
+import 'pages/homePage.dart';
 import 'package:provider/provider.dart';
 import 'transactions.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
   runApp(MyApp());
 }
 
@@ -34,7 +38,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'sans-serif',
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: HomePage(),
+        home: Scaffold(body: HomePage()),
       ),
     );
   }
