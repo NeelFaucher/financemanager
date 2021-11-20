@@ -1,16 +1,31 @@
-# financemanager2
+# Finance Tracker Application
+ <p align = "left" >
+  <img width="708" height="458" src="allscreens.png">
+</p>
 
-A new Flutter project.
+## Introduction
+Application facilitating user expense transaction analytics, helps users understand how much money they are spending on various categories over time (groceries, meals, and entertainment).
 
-## Getting Started
+## Features
+- Daily Transactions page: List of transactions in a given day
+- Monthly Breakdown page: Pie chart showing categorized breakdown of monthly transaction
+- Add Transaction page: Add a transaction with a category label
 
-This project is a starting point for a Flutter application.
+## Technologies
+Flutter, Dart
 
-A few resources to get you started if this is your first Flutter project:
+- Firebase
+- Authentication
+- Storage
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screens
+
+### Monthly Breakdown | Daily Transactions | Add Transaction
+
+<p align = "left" >
+  <img width="230" height="480" src="monthlyTransactionVid.gif">
+  <img width="230" height="480" src="dailyTransactionVid.gif">
+  <img width="230" height="480" src="addTransactionVid.gif">
+</p>
+
