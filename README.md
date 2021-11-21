@@ -29,7 +29,7 @@ Back End: [Cloud Firestore](https://firebase.google.com/products/firestore) back
 - This page is a stateful widget that refreshes on the switching between weeks. For each state, transaction data (including category, price, time & date) of the current week are queried, synced and localized (using provider) for effective and simplified allocation & disposal of resources
 - For each day of the week, the transaction data is constructed into iterables and sorted (using merge sort) with the most recent transaction at the beginning. 
 
-**Navigation Bar:** Quick access to individual expenses for the user’s current week
+**Navigation Bar:** Quick access to individual expenses for the user’s current week with toggles for previous weeks. 
 
 ### Monthly Transactions Page: 
 
@@ -39,7 +39,7 @@ Back End: [Cloud Firestore](https://firebase.google.com/products/firestore) back
 * This page is a stateful widget that refreshes on switching between the 6months provided in its navigation bar. For each state, the total monthly transactions, total transactions for each category, and number of transactions are queried and localized.
 * Using change notifier and provider, this widget listens to the latest value of localized transaction data in the “Daily Transaction” widget, and updates its local widgets. In addition, it listens to any expenses that are added using the “Add Transaction” widget.
 
-**Navigation Bar:** Quick access to monthly expenses in six month increments. 
+**Navigation Bar:** Quick access to monthly expenses in six month increments with toggles for previous months.
 
 ### Add Transactions Page: 
 
