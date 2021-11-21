@@ -8,6 +8,8 @@ Application facilitating user expense transaction analytics, helps users underst
 
 **Credits**: Athiru Pathiraja, Neel Faucher
 
+Tested for Android & iOS
+
 ## Technologies
 Front End: Built using [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows for a native applications to be built for i0S, Android, desktop and the web using a single codebase.
 
