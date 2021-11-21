@@ -54,8 +54,8 @@ Back End: [Cloud Firestore](https://firebase.google.com/products/firestore) back
 ### Monthly Breakdown | Daily Transactions | Add Transaction
 
 <p align = "left" >
-  <img width="230" height="480" src="monthlyTransactionVid.gif">
-  <img width="230" height="480" src="dailyTransactionVid.gif">
-  <img width="230" height="480" src="addTransactionVid.gif">
+  <img width="235" height="480" src="monthlyTransactionVid.gif">
+  <img width="235" height="480" src="dailyTransactionVid.gif">
+  <img width="235" height="480" src="addTransactionVid.gif">
 </p>
 
